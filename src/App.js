@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import NewJoke from './NewJoke';
+
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {getDataState:'Press the button!'};
+  }
+
+
+  getData = async function () {
+    const promise = await fetch('https://api.chucknorris.io/jokes/random');
+    const data = await promise.json();
+    this.setState({
+      getDataState:data['value']
+    })
+    console.log(data)
+    
+  }
+
+  
+
+  render() {
+    
+    return (
+     
+      <NewJoke btn="Generate New Joke" title="New Joke" content={this.state.getDataState} generate={()=>this.getData()}></NewJoke>
+      
+    );
+  }
 }
 
 export default App;
