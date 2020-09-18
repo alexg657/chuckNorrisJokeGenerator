@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/alexg657/chuckNorrisJokeGenerator/static/css/main.bb9c82f1.chunk.css",
+    "main.js": "/alexg657/chuckNorrisJokeGenerator/static/js/main.f40f0fe7.chunk.js",
+    "main.js.map": "/alexg657/chuckNorrisJokeGenerator/static/js/main.f40f0fe7.chunk.js.map",
+    "runtime-main.js": "/alexg657/chuckNorrisJokeGenerator/static/js/runtime-main.40a6a42a.js",
+    "runtime-main.js.map": "/alexg657/chuckNorrisJokeGenerator/static/js/runtime-main.40a6a42a.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/alexg657/chuckNorrisJokeGenerator/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.d0472d00.chunk.js": "/alexg657/chuckNorrisJokeGenerator/static/js/2.d0472d00.chunk.js",
+    "static/js/2.d0472d00.chunk.js.map": "/alexg657/chuckNorrisJokeGenerator/static/js/2.d0472d00.chunk.js.map",
+    "index.html": "/alexg657/chuckNorrisJokeGenerator/index.html",
+    "precache-manifest.795dd49bca1989cc8921b7e58d84fb7b.js": "/alexg657/chuckNorrisJokeGenerator/precache-manifest.795dd49bca1989cc8921b7e58d84fb7b.js",
+    "service-worker.js": "/alexg657/chuckNorrisJokeGenerator/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/alexg657/chuckNorrisJokeGenerator/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.bb9c82f1.chunk.css.map": "/alexg657/chuckNorrisJokeGenerator/static/css/main.bb9c82f1.chunk.css.map",
+    "static/js/2.d0472d00.chunk.js.LICENSE.txt": "/alexg657/chuckNorrisJokeGenerator/static/js/2.d0472d00.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40a6a42a.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.d0472d00.chunk.js",
+    "static/css/main.bb9c82f1.chunk.css",
+    "static/js/main.f40f0fe7.chunk.js"
+  ]
+}
